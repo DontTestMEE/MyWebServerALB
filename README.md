@@ -2,7 +2,8 @@
 Configures the ALB to route traffic to both instances. When a user accesses the ALB's DNS, they would see the HTML page served from one of the instances, identifying which server they are connected to.
 
 
-Overview
+# Overview
+
 This project demonstrates the deployment of a highly available and scalable web application using AWS CloudFormation. The architecture consists of two EC2 instances placed in different Availability Zones (AZs), each inside its own public subnet. An Application Load Balancer (ALB) is configured to distribute incoming traffic evenly across the instances.
 
 Architecture
